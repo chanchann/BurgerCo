@@ -1,0 +1,29 @@
+{
+  "name": "libgo",
+  "version": "3.2.4",
+  "description": "C++ coroutine framework.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "mkdir -p build && cd build && cmake .. && make",
+    "install": "mkdir -p build && cd build && cmake .. && make && make uninstall && make install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyzybb537/libgo.git"
+  },
+  "keywords": [
+    "libgo",
+    "c++",
+    "coroutine"
+  ],
+  "author": "yyz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyzybb537/libgo/issues"
+  },
+  "homepage": "https://github.com/yyzybb537/libgo#readme"
+}
